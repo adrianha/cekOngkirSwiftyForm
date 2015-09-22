@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Srb-Yt-Ic6">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Cek Tarif-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CekTarifController" customModule="cekOngkir" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kota Asal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Khy-ww-6HM">
+                                <rect key="frame" x="20" y="65" width="106" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kota Tujuan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QVn-jI-P33">
+                                <rect key="frame" x="20" y="103" width="106" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9h0-g2-Dw2">
+                                <rect key="frame" x="134" y="65" width="446" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WVn-Yu-Oe2">
+                                <rect key="frame" x="134" y="103" width="446" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bC0-ti-mMI">
+                                <rect key="frame" x="228" y="141" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="testMethod:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pHL-8X-lQv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9h0-g2-Dw2" firstAttribute="top" secondItem="Khy-ww-6HM" secondAttribute="top" id="0Uu-Pc-fwR"/>
+                            <constraint firstItem="bC0-ti-mMI" firstAttribute="top" secondItem="WVn-Yu-Oe2" secondAttribute="bottom" constant="8" symbolic="YES" id="3GC-1i-oSR"/>
+                            <constraint firstItem="bC0-ti-mMI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="228" id="BKp-FE-P4H"/>
+                            <constraint firstItem="Khy-ww-6HM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="45" id="Bhf-bA-FHR"/>
+                            <constraint firstItem="QVn-jI-P33" firstAttribute="top" secondItem="Khy-ww-6HM" secondAttribute="bottom" constant="8" symbolic="YES" id="BzF-P2-vNr"/>
+                            <constraint firstItem="9h0-g2-Dw2" firstAttribute="trailing" secondItem="WVn-Yu-Oe2" secondAttribute="trailing" id="Hhk-mk-g3M"/>
+                            <constraint firstItem="9h0-g2-Dw2" firstAttribute="leading" secondItem="WVn-Yu-Oe2" secondAttribute="leading" id="KAS-xS-Y8m"/>
+                            <constraint firstItem="WVn-Yu-Oe2" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="O63-Rh-LhR"/>
+                            <constraint firstItem="9h0-g2-Dw2" firstAttribute="leading" secondItem="Khy-ww-6HM" secondAttribute="trailing" constant="8" symbolic="YES" id="QD3-lV-dm8"/>
+                            <constraint firstItem="QVn-jI-P33" firstAttribute="leading" secondItem="Khy-ww-6HM" secondAttribute="leading" id="bi1-0I-xbD"/>
+                            <constraint firstItem="WVn-Yu-Oe2" firstAttribute="leading" secondItem="QVn-jI-P33" secondAttribute="trailing" constant="8" symbolic="YES" id="f5d-Gr-dJp"/>
+                            <constraint firstItem="Khy-ww-6HM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="idR-wa-njm"/>
+                            <constraint firstItem="WVn-Yu-Oe2" firstAttribute="top" secondItem="9h0-g2-Dw2" secondAttribute="bottom" constant="8" symbolic="YES" id="j2i-WV-0D4"/>
+                            <constraint firstItem="QVn-jI-P33" firstAttribute="top" secondItem="WVn-Yu-Oe2" secondAttribute="top" id="kqz-DP-Kx5"/>
+                            <constraint firstItem="WVn-Yu-Oe2" firstAttribute="bottom" secondItem="QVn-jI-P33" secondAttribute="bottom" id="uUO-8u-k0Z"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Cek Tarif" image="Monarchy3" selectedImage="Monarchy3" id="cdj-GE-j6d"/>
+                    <connections>
+                        <outlet property="TextFieldDestination" destination="WVn-Yu-Oe2" id="R2I-bM-U9M"/>
+                        <outlet property="TextFieldOrigin" destination="9h0-g2-Dw2" id="YMv-Ml-acA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1057" y="350"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="JSv-fm-b4X">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Srb-Yt-Ic6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="JmH-80-c2U">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="IYs-xA-wi0"/>
+                        <segue destination="Sjc-vr-A7P" kind="relationship" relationship="viewControllers" id="9fX-0H-pXd"/>
+                        <segue destination="nL6-TN-05M" kind="relationship" relationship="viewControllers" id="Sp3-J0-JB9"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="efI-QT-Bjc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="350"/>
+        </scene>
+        <!--Cek Resi-->
+        <scene sceneID="MTH-Dw-tKf">
+            <objects>
+                <viewController id="Sjc-vr-A7P" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="x67-sy-GbW"/>
+                        <viewControllerLayoutGuide type="bottom" id="e64-ff-Few"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="36Q-Ud-WHF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Cek Resi" image="Monarchy4" selectedImage="Monarchy4" id="Y7F-gv-Yyo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NYI-37-2bL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="1148"/>
+        </scene>
+        <!--SwiftyFORM-->
+        <scene sceneID="nX7-np-eGJ">
+            <objects>
+                <viewController id="nL6-TN-05M" customClass="MySwiftyFORMController" customModule="cekOngkir" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aCO-zF-1vd"/>
+                        <viewControllerLayoutGuide type="bottom" id="lHV-5n-kfy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YW7-dd-GAa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="SwiftyFORM" id="dv2-x4-xvA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rPv-c7-g8B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1023" y="1051"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Monarchy3" width="30" height="30"/>
+        <image name="Monarchy4" width="30" height="30"/>
+    </resources>
+</document>

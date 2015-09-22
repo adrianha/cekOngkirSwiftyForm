@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C40D2BB5E0C44E3583BAB6EC /* Pods_cekOngkir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9657EED3DB4970DAFB8749F /* Pods_cekOngkir.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E05EC5641BAB036200D96C44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EC5631BAB036200D96C44 /* AppDelegate.swift */; };
+		E05EC5661BAB036200D96C44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EC5651BAB036200D96C44 /* ViewController.swift */; };
+		E05EC5691BAB036200D96C44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05EC5671BAB036200D96C44 /* Main.storyboard */; };
+		E05EC56B1BAB036200D96C44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05EC56A1BAB036200D96C44 /* Assets.xcassets */; };
+		E05EC56E1BAB036200D96C44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05EC56C1BAB036200D96C44 /* LaunchScreen.storyboard */; };
+		E06FAD301BADC95300E2C3EF /* CekTarifController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06FAD2F1BADC95300E2C3EF /* CekTarifController.swift */; settings = {ASSET_TAGS = (); }; };
+		E0B20EFF1BAEBA3100699759 /* MySwiftyFORMController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B20EFE1BAEBA3100699759 /* MySwiftyFORMController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E020077F1BB1B19B00B7DE05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E020077A1BB1B19A00B7DE05 /* SwiftyFORM.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42D5DE651A38167400D5C368;
+			remoteInfo = SwiftyFORM;
+		};
+		E02007811BB1B19B00B7DE05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E020077A1BB1B19A00B7DE05 /* SwiftyFORM.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42D5DE6F1A38167400D5C368;
+			remoteInfo = SwiftyFORMTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E0B20EFD1BAEB85200699759 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2D80BBA493DA2F87AF775BD0 /* Pods-cekOngkir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cekOngkir.release.xcconfig"; path = "Pods/Target Support Files/Pods-cekOngkir/Pods-cekOngkir.release.xcconfig"; sourceTree = "<group>"; };
+		729C05C20ACE0FA54E5214AB /* Pods-cekOngkir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cekOngkir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cekOngkir/Pods-cekOngkir.debug.xcconfig"; sourceTree = "<group>"; };
+		E020077A1BB1B19A00B7DE05 /* SwiftyFORM.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SwiftyFORM.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E05EC5601BAB036200D96C44 /* cekOngkir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cekOngkir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05EC5631BAB036200D96C44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E05EC5651BAB036200D96C44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E05EC5681BAB036200D96C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E05EC56A1BAB036200D96C44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E05EC56D1BAB036200D96C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E05EC56F1BAB036200D96C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06FAD2F1BADC95300E2C3EF /* CekTarifController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CekTarifController.swift; sourceTree = "<group>"; };
+		E0B20EFE1BAEBA3100699759 /* MySwiftyFORMController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySwiftyFORMController.swift; sourceTree = "<group>"; };
+		E9657EED3DB4970DAFB8749F /* Pods_cekOngkir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cekOngkir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E05EC55D1BAB036200D96C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40D2BB5E0C44E3583BAB6EC /* Pods_cekOngkir.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D78ECF683B680CC12175B8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9657EED3DB4970DAFB8749F /* Pods_cekOngkir.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E020077B1BB1B19A00B7DE05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E02007801BB1B19B00B7DE05 /* SwiftyFORM.framework */,
+				E02007821BB1B19B00B7DE05 /* SwiftyFORMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E05EC5571BAB036200D96C44 = {
+			isa = PBXGroup;
+			children = (
+				E020077A1BB1B19A00B7DE05 /* SwiftyFORM.xcodeproj */,
+				E05EC5621BAB036200D96C44 /* cekOngkir */,
+				E05EC5611BAB036200D96C44 /* Products */,
+				F6A120794749CE1222B41EE8 /* Pods */,
+				1D78ECF683B680CC12175B8D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E05EC5611BAB036200D96C44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E05EC5601BAB036200D96C44 /* cekOngkir.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E05EC5621BAB036200D96C44 /* cekOngkir */ = {
+			isa = PBXGroup;
+			children = (
+				E05EC5631BAB036200D96C44 /* AppDelegate.swift */,
+				E05EC5651BAB036200D96C44 /* ViewController.swift */,
+				E05EC5671BAB036200D96C44 /* Main.storyboard */,
+				E05EC56A1BAB036200D96C44 /* Assets.xcassets */,
+				E05EC56C1BAB036200D96C44 /* LaunchScreen.storyboard */,
+				E05EC56F1BAB036200D96C44 /* Info.plist */,
+				E06FAD2F1BADC95300E2C3EF /* CekTarifController.swift */,
+				E0B20EFE1BAEBA3100699759 /* MySwiftyFORMController.swift */,
+			);
+			path = cekOngkir;
+			sourceTree = "<group>";
+		};
+		F6A120794749CE1222B41EE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				729C05C20ACE0FA54E5214AB /* Pods-cekOngkir.debug.xcconfig */,
+				2D80BBA493DA2F87AF775BD0 /* Pods-cekOngkir.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E05EC55F1BAB036200D96C44 /* cekOngkir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05EC5721BAB036200D96C44 /* Build configuration list for PBXNativeTarget "cekOngkir" */;
+			buildPhases = (
+				AE21ED868D46CA283C787202 /* Check Pods Manifest.lock */,
+				E05EC55C1BAB036200D96C44 /* Sources */,
+				E05EC55D1BAB036200D96C44 /* Frameworks */,
+				E05EC55E1BAB036200D96C44 /* Resources */,
+				FA8B2E126C93614DA284569F /* Embed Pods Frameworks */,
+				6208D4E62A14D8DA86C7D4FD /* Copy Pods Resources */,
+				E0B20EFD1BAEB85200699759 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cekOngkir;
+			productName = cekOngkir;
+			productReference = E05EC5601BAB036200D96C44 /* cekOngkir.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E05EC5581BAB036200D96C44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Adrian Hartanto";
+				TargetAttributes = {
+					E05EC55F1BAB036200D96C44 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = U356JXWW75;
+					};
+				};
+			};
+			buildConfigurationList = E05EC55B1BAB036200D96C44 /* Build configuration list for PBXProject "cekOngkir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E05EC5571BAB036200D96C44;
+			productRefGroup = E05EC5611BAB036200D96C44 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E020077B1BB1B19A00B7DE05 /* Products */;
+					ProjectRef = E020077A1BB1B19A00B7DE05 /* SwiftyFORM.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E05EC55F1BAB036200D96C44 /* cekOngkir */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E02007801BB1B19B00B7DE05 /* SwiftyFORM.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyFORM.framework;
+			remoteRef = E020077F1BB1B19B00B7DE05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E02007821BB1B19B00B7DE05 /* SwiftyFORMTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftyFORMTests.xctest;
+			remoteRef = E02007811BB1B19B00B7DE05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E05EC55E1BAB036200D96C44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05EC56E1BAB036200D96C44 /* LaunchScreen.storyboard in Resources */,
+				E05EC56B1BAB036200D96C44 /* Assets.xcassets in Resources */,
+				E05EC5691BAB036200D96C44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6208D4E62A14D8DA86C7D4FD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cekOngkir/Pods-cekOngkir-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE21ED868D46CA283C787202 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA8B2E126C93614DA284569F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cekOngkir/Pods-cekOngkir-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E05EC55C1BAB036200D96C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05EC5661BAB036200D96C44 /* ViewController.swift in Sources */,
+				E06FAD301BADC95300E2C3EF /* CekTarifController.swift in Sources */,
+				E05EC5641BAB036200D96C44 /* AppDelegate.swift in Sources */,
+				E0B20EFF1BAEBA3100699759 /* MySwiftyFORMController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E05EC5671BAB036200D96C44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E05EC5681BAB036200D96C44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E05EC56C1BAB036200D96C44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E05EC56D1BAB036200D96C44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E05EC5701BAB036200D96C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E05EC5711BAB036200D96C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E05EC5731BAB036200D96C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 729C05C20ACE0FA54E5214AB /* Pods-cekOngkir.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = cekOngkir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adrianhartanto.cekOngkir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E05EC5741BAB036200D96C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D80BBA493DA2F87AF775BD0 /* Pods-cekOngkir.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = cekOngkir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adrianhartanto.cekOngkir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E05EC55B1BAB036200D96C44 /* Build configuration list for PBXProject "cekOngkir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05EC5701BAB036200D96C44 /* Debug */,
+				E05EC5711BAB036200D96C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E05EC5721BAB036200D96C44 /* Build configuration list for PBXNativeTarget "cekOngkir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05EC5731BAB036200D96C44 /* Debug */,
+				E05EC5741BAB036200D96C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E05EC5581BAB036200D96C44 /* Project object */;
+}
